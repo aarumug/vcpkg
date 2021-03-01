@@ -10,8 +10,16 @@
       "name": "c-ares",
       "platform": "!uwp"
     },
+    {
+      "name": "grpc",
+      "host": true
+    },
     "openssl",
     "protobuf",
+    {
+      "name": "protobuf",
+      "host": true
+    },
     "re2",
     "upb",
     "zlib"
